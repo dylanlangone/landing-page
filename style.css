@@ -73,6 +73,15 @@ body {
     color: #E5E7EB;
 }
 
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    width: 25%;
+    padding: 4px 4px;
+    border-radius: 8px;
+}
+
 .p2 {
     background: white;
 }
