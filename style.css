@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    margin: 0px;
+}
+
+.header {
+    background: #1F2937;
+    height: 50px;
+    flex-grow: 0;
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+}
+
+.header-text-left {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+.header-text-right {
+    font: roboto;
+    font-size: 18px;
+    color: #E5E7EB;;
+}
+
+.footer {
+    background: #1F2937;
+    height: 50px;
+    flex-grow: 0;
+}
+
+.panel {
+    flex-grow: 1;
+}
+
+.p1 {
+    background: #1F2937;
+}
+
+.p2 {
+    background: white;
+}
+
+.p3 {
+    background: gray;
+}
+
+.p4 {
+    background: white;
+}
+
