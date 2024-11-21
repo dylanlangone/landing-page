@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1b2a41;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+        }
+
+        header .logo {
+            font-weight: bold;
+        }
+
+        header .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        header .nav-links a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .hero {
+            background-color: #1b2a41;
+            color: #fff;
+            padding: 80px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .hero .text-content h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero .text-content p {
+            margin-bottom: 20px;
+            color: #a0a0a0;
+        }
+
+        .hero .text-content .btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .hero .image-placeholder {
+            background-color: #b0b0b0;
+            width: 400px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #444;
+        }
+
+        .info-section {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .info-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 150px);
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .grid-item {
+            border: 2px solid #007bff;
+            border-radius: 8px;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #555;
+        }
+
+        .quote-section {
+            background-color: #e6e6e6;
+            padding: 60px 40px;
+            text-align: center;
+            font-style: italic;
+            color: #333;
+        }
+
+        .quote-section p {
+            font-size: 18px;
+        }
+
+        .quote-section .author {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .cta-section {
+            background-color: #007bff;
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            margin-bottom: 10px;
+        }
+
+        .cta-section .btn {
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #1b2a41;
+            color: #bbb;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Header Logo</div>
+        <nav class="nav-links">
+            <a href="#">header link one</a>
+            <a href="#">header link two</a>
+            <a href="#">header link three</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="text-content">
+            <h1>This website is awesome</h1>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+            <a href="#" class="btn">Sign up</a>
+        </div>
+        <div class="image-placeholder">this is a placeholder for an image</div>
+    </section>
+
+    <section class="info-section">
+        <h2>Some random information.</h2>
+        <div class="grid">
+            <div class="grid-item">this is some subtext under an illustration or image</div>
+            <div class="grid-item">this is some subtext under an illustration or image</div>
+            <div class="grid-item">this is some subtext under an illustration or image</div>
+            <div class="grid-item">this is some subtext under an illustration or image</div>
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+        <div class="author">-Thor, God of Thunder</div>
+    </section>
+
+    <section class="cta-section">
+        <h2>Call to action! It's time!</h2>
+        <p>Sign up for our product by clicking that button right over there!</p>
+        <a href="#" class="btn">Sign up</a>
+    </section>
+
+    <footer>
+        Copyright © The Odin Project 2021
+    </footer>
+</body>
+</html>
